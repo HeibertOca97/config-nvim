@@ -168,3 +168,19 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
+
+"*********************************
+"**** kabbamine/vcoolor.vim ****
+"*********************************
+
+"let g:vcoolor_map = '<Alt-RW>'
+"let g:vcool_ins_rgb_map = '<Alt-CX>'        " Insert rgb color.
+"let g:vcool_ins_hsl_map = '<Alt-CS>'        " Insert hsl color.
+"let g:vcool_ins_rgba_map = '<Alt-CZ>'        " Insert rgba color.
+
+" Desabilitar funcionalidad
+"let g:vcoolor_lowercase = 1
+"let g:vcoolor_disable_mappings = 1
+"let g:vcoolor_map = '<leader>g'
+

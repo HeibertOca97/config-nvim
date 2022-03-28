@@ -5,6 +5,7 @@ Plug 'shougo/vimshell.vim'
 " language
 Plug 'leafgarland/typescript-vim'
 Plug 'neoclide/coc-tsserver'
+Plug 'scrooloose/nerdcommenter'
 
 " syntax
 Plug 'sheerun/vim-polyglot'
@@ -16,7 +17,7 @@ Plug 'maxmellon/vim-jsx-pretty'   " JS and JSX syntax
 " Completion
 Plug 'phpactor/phpactor', {'for': 'php', 'tag': '*', 'do': 'composer install --no-dev -o'}
 Plug 'neoclide/coc.nvim', {'branch': 'release'} 
-
+Plug 'neoclide/coc-tabnine'
 
 " status bar
 Plug 'maximbaz/lightline-ale'
@@ -27,12 +28,36 @@ Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdtree'
 
 
+
+
 " typing
 Plug 'jiangmiao/auto-pairs'
 Plug 'mattn/emmet-vim'
 
 
+
+
 " Interface
 Plug 'dracula/vim', {'as': 'dracula'}
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+"Plug 'ryanoasis/vim-devicons'
+
+
+
+
+" Integrations
+Plug 'kabbamine/vcoolor.vim'
+
+
+
+
+" Code-display
+Plug 'mhartington/oceanic-next'
+Plug 'ap/vim-css-color'
+
+
+" Commands
+"Plug 'easymotion/vim-easymotion'
 
 call plug#end()
