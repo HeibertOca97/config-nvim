@@ -6,12 +6,13 @@ Plug 'shougo/vimshell.vim'
 Plug 'leafgarland/typescript-vim'
 Plug 'neoclide/coc-tsserver'
 Plug 'scrooloose/nerdcommenter'
+Plug 'maxmellon/vim-jsx-pretty'   " JS and JSX syntax
+Plug 'peitalin/vim-jsx-typescript'
 
 " syntax
 Plug 'sheerun/vim-polyglot'
 Plug 'pangloss/vim-javascript'    " JavaScript support
 Plug 'leafgarland/typescript-vim' " TypeScript syntax
-Plug 'maxmellon/vim-jsx-pretty'   " JS and JSX syntax
 
 
 " Completion
@@ -56,6 +57,10 @@ Plug 'kabbamine/vcoolor.vim'
 Plug 'mhartington/oceanic-next'
 Plug 'ap/vim-css-color'
 
+
+" Uncategorized
+"Plug 'nvim-lua/plenary.nvim'
+"Plug 'nvim-telescope/telescope.nvim'
 
 " Commands
 "Plug 'easymotion/vim-easymotion'
